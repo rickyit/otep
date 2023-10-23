@@ -1,0 +1,48 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  background-color: pink;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#header #logo {
+}
+
+#header #nav {
+}
+
+#header #nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#header #nav ul li {
+  float: left;
+  margin-left: 5px;
+}
+#header #nav ul li:first-child {
+  margin-right: 5px;
+}
+#header #nav ul li a {
+  text-decoration: none;
+}
+
+.content {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
